@@ -4,103 +4,9 @@
 	<meta charset="UTF-8">
 	<title>Friendly Leaf</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
-	<link rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fsocial-buttons.css">
-	<script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
-	<script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
-	<link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" rel="stylesheet" type="text/css">
-	<style type="text/css">
-	/* Large desktop */
-	@media (min-width: 980px) {
-	body {
-		padding-top: 60px;
-	}
-	.linediv-l {
-		border-right: 1px white solid;
-	}
-	.linediv-r {
-		border-left: 1px white solid;
-	}
-	}
-
-	/* Landscape phones and down */
-	@media (max-width: 480px) {
-	.copy {
-		padding: 2.5% 10%;
-	}
-	.linediv-l {
-		border-bottom: 1px white solid;
-	}
-	.linediv-r {
-		border-top: 1px white solid;
-	}
-	}
-
-	/* All form factors */
-
-	/* Main body and headings */
-	body {
-		font-family: "Open Sans", Helvetica, Arial, sans-serif;
-	}
-	.heading, .subheading {
-		font-family: "Ubuntu", Helvetica, Arial, sans-serif;
-		text-align: center;
-	}
-	p.lead {
-		padding-top: 1.5%;
-		font-size: 24px;
-		line-height: 30px;
-	}
-	p {
-		font-size: 18px;
-		line-height: 24px;
-	}
-	/* Video pitch and Action */
-	.pitch {
-		padding: 2.5% 0%;
-	}
-	.order {
-		padding: 2% 0%;
-	}
-	.actions {
-		background-color: #343434;
-		padding: 3% 0%;
-	}
-	.video, .thermometer, .order, .social, .statistics {
-		text-align: center;
-	}
-	.statistics h3, .statistics p {
-		color: white;
-	}
-
-	/* Marketing Copy and Footer */
-	.copy {
-		padding-top: 2.5%;
-		padding-bottom: 2.5%;
-		text-align: justify;
-	}
-	.asset {
-		padding: 2.5% 0%;
-	}
-	.footer {
-		color: #cccccc;
-		text-align: center;
-	}
-	.footer p {
-		font-size: 11px;
-	}
-	.footer a {
-		color: #ccccff;
-	}
-
-	/* http://support.addthis.com/customer/portal/questions/1136093-share-buttons-in-center-position */      
-	div.addthis_toolbox {
-		width: 244px;
-		margin: 0 auto;
-	}
-	</style>
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
 
 	<script type="text/javascript">
 
@@ -117,112 +23,108 @@
 </script>
 </head>
 <body>
-	<!-- Mobile-friendly navbar adapted from example. -->
-	<!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
-	<div class="navbar navbar-inverse navbar-fixed-top">
-		<div class="navbar-inner">
-			<div class="container">
-				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	<div class="navbar">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="brand" href="#">Friendly Leaf</a>
-				<div class="nav-collapse collapse">
+				<a class="brand" href="#">The Friendly Leaf</a>
+				<div class="nav-collapse collapse navbar-responsive-collapse">
 					<ul class="nav">
 						<li class="active"><a href="#">Home</a></li>
 						<li><a href="#about">About</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-1 col-sm-1 col-0"></div>
+			<div id="headimage" class="col-lg-10 col-sm-10 col-12"><img src="http://placekitten.com/950/325" alt="Place Kitten" class="img-responsive" /></div>
+			<div class="col-lg-1 col-sm-1 col-0">
+		</div>
+		<div class="row">
+			<div class="col-lg-1 col-1"></div>
+			<div class="page-header col-lg-8 col-8">
+				<h1>The Friendly Leaf</h1>
+				<small>the perfect pressed leaf</small>
+			</div>
+			<div class="col-lg-3 col-3">
+		</div>
+		
+		<div id="about">
+		<div class="row">
+			<div class="col-lg-5 col-12">
+				<p>Bring autumn into your life, any time of the year with the Friendly Leaf. Our Friendly Leaves can fill that void in your life, and even make the perfect gift for loved ones and friends. Fresh from the midwestern state of Iowa, your leaf will be handpicked, and pressed the day the the goal is met (or order is received if the goal is met), and mailed to you soon after.</p>
+			</div>
+			<div class="col-lg-6 col-12 col-lg-offset-1 col-offset-0">
+				<img class="img-responsive" alt="Place Kitten" src="http://placekitten.com/480/300">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 col-6">
+				<img src="http://placekitten.com/400/300" alt="Place Kitten" class="img-responsive" />
+			</div>
+			<div class="col-lg-6 col-6">
+				<img src="http://placekitten.com/400/300" alt="Place Kitten" class="img-responsive" />
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-12">
+				<p>For a few cents more you can have sentience added to your leaf, with our fantastic goggly-eyes. Have your Friendly Leaf become your new companion. They're small enough to come with you anywhere, and entertaining enough for you to want to bring them along too. Think of the adventures you and your leaf would go on! You can even play dress up with leaf, which is a perfect way to entertain the young and young at heart. It can even entertain pets!<p>
 			</div>
 		</div>
 	</div>
 
-	<div class="container">
-		<div class="row-fluid heading">
-			<div class="span12">
-				<h1>Friendly Leaf</h1>
+	<div id="order" class="row col-12 col-12">
+		<div class="col-lg-6 col-sm-6 col-12">
+			<div class="row">
+				<div class="col-lg-3 col-sm-3 col-12 linediv-l statistics">
+					<h3>Hello</h3>
+					<p>World</p>
+				</div>
+				<div class="col-lg-3 col-sm-3 col-12 linediv-c statistics">
+					<h3>Hello</h3>
+					<p>World</p>
+				</div>
+				<div class="col-lg-3 col-sm-3 col-12 linediv-r statistics">
+					<h3>Hello</h3>
+					<p>World</p>
+				</div>
 			</div>
-		</div>
-		<div class="row-fluid subheading">
-			<div class="span12">
-				<p class="lead">The perfect pressed leaf.</p>
-			</div>
-		</div>
-		<div class="row-fluid pitch">
-			<div class="span5 offset1 video">
-				<img class="img-polaroid" src="http://placehold.it/480x300">
-			</div>
-
-			<div class="span5 actions">
-				<div class="span8 offset2">
-					<div class="statistics">
-						<div class="span4">
-							<div class="linediv-l">
-								<h3>1000</h3> <p>backers</p>
-							</div>
-						</div>
-						<div class="span4">
-							<div class="linediv-c">
-								<h3>$6000</h3> <p>of $10,000</p>
-							</div>
-						</div>
-						<div class="span4">
-							<div class="linediv-r">
-								<h3>10</h3> <p>days left</p>
-							</div>
-						</div>
+			<div class="row">
+				<div class="col-lg-12 col-12">
+					<div class="progress">
+						<div class="progress-bar progress-bar-success" style="width: 60%"></div>
 					</div>
 				</div>
-				<div class="span10 offset1">
-					<div class="thermometer progress active">
-						<div class="bar bar-success" style="width: 60%;"></div>
-						<div class="bar bar-warning" style="width: 40%;"></div>
-					</div>
-				</div>
-				<div class="span6 offset3 order">
-					<a class="coinbase-button" data-code="8857b1d0d0a35b64eb60fd080d883aec" data-button-style="custom_large" href="https://coinbase.com/checkouts/8857b1d0d0a35b64eb60fd080d883aec">Preorder With Bitcoin</a><script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
-				</div>
-				<div class="span8 offset2 social">
-					<!-- AddThis Button BEGIN -->
-					<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
-						<a class="addthis_button_preferred_1"></a>
-						<a class="addthis_button_preferred_2"></a>
-						<a class="addthis_button_preferred_3"></a>
-						<a class="addthis_button_preferred_4"></a>
-						<a class="addthis_button_compact"></a>
-						<a class="addthis_counter addthis_bubble_style"></a>
-					</div>
-					<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
-					<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51fdbea03ed01d66"></script>
-					<!-- AddThis Button END -->
-				</div>
 			</div>
 		</div>
-
-		<div class="row-fluid section1">
-			<div class="span5 offset1 asset">
-				<img class="img-polaroid" src="http://placekitten.com/480/300">
+		<div class="col-lg-6 col-sm-6 col-12">
+			<div class="row">
+				<a class="coinbase-button" data-code="8857b1d0d0a35b64eb60fd080d883aec" data-button-style="custom_large" href="https://coinbase.com/checkouts/8857b1d0d0a35b64eb60fd080d883aec">Preorder With Bitcoin</a>
+				<script src="https://coinbase.com/assets/button.js" type="text/javascript"></script>
 			</div>
-			<div class="span5 copy">
-				<p>Bring autumn into your life, any time of the year with the Friendly Leaf. Our Friendly Leaves can fill that void in your life, and even make the perfect gift for loved ones and friends. Fresh from the midwestern state of Iowa, your leaf will be handpicked, and pressed the day the the goal is met (or order is received if the goal is met), and mailed to you soon after.</p>
+			<div class="row">
+				<!-- AddThis Button BEGIN -->
+				<div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+					<a class="addthis_button_preferred_1"></a>
+					<a class="addthis_button_preferred_2"></a>
+					<a class="addthis_button_preferred_3"></a>
+					<a class="addthis_button_preferred_4"></a>
+					<a class="addthis_button_compact"></a>
+					<a class="addthis_counter addthis_bubble_style"></a>
+				</div>
+				<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+				<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-51fdbea03ed01d66"></script>
+				<!-- AddThis Button END -->
 			</div>
 		</div>
+	</div>
 
-		<div class="row-fluid section2">
-			<div class="span5 offset1 copy copy-right">
-				<p>For a few cents more you can have sentience added to your leaf, with our fantastic goggly-eyes. Have your Friendly Leaf become your new companion. They're small enough to come with you anywhere, and entertaining enough for you to want to bring them along too. Think of the adventures you and your leaf would go on! You can even play dress up with leaf, which is a perfect way to entertain the young and young at heart. It can even entertain pets!<p>
-			</div>
-			<div class="span5 asset">
-				<img class="img-polaroid" src="http://placekitten.com/480/300">
-			</div>
-		</div>
-
-		<div class="row-fluid faq">
-			<div class="span10 offset1">
-				<h3>FAQ</h3>
-				<div class="accordion" id="accordion2">
+		<div class="accordion col-lg-12 col-12" id="accordion2">
 					<div class="accordion-group">
 						<div class="accordion-heading">
 							<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">What does FAQ stand for?</a>
@@ -243,12 +145,10 @@
 							</div>
 						</div>
 					</div>
-				</div>
-			</div>
 		</div>
 
-		<div class="row-fluid footer">
-			<div class="span12">
+		<div class="row footer">
+			<div class="col-lg-12">
 				<p>This worker is licensed under the <a href="http://creativecommons.org/license/by-sa/3.0/">CC By-SA 3.0</a>, without all the cruft that would otherwise be put at the bottom of the page.</p>
 			</div>
 		</div>
